@@ -7,7 +7,7 @@ def message_received(ch, method, properties, body):
 connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
 channel = connection.channel()
 
-# Declare a queue named 'hello'
+# Declare a queue named
 channel.queue_declare(queue='hello')
 
 # Set up a consumer and specify the callback function
