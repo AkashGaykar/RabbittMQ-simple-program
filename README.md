@@ -1,0 +1,1 @@
+# RabbittMQ-simple-program
